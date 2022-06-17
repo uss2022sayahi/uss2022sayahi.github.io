@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: index.html
+collection: pages
+---
+
+<div class="archive">
+  {% for post in collections.posts %}
+  <h1 class="archive-year">{{ post.date.rfc_2822 }}</h1>
+  <div class="archive-item">
+    <span class="post-date archive-date fs-4"
+      >{{ post.date.rfc_2822 }}</span
+    >
+    <a href="{{ post.url | remove: 'index.html' | prepend: global.url }}" class="archive-title fs-4"
+      >{{ post.data.title }}</a
+    >
+  </div>
+  {% endfor %}
+</div>

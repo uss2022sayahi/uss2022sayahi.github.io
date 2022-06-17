@@ -1,0 +1,22 @@
+locale: en_US
+name: "Analysis of Potential Malicious Strategies toward Bit-Exchange with IPFS"
+lightavatar: assets/images/miami/white.png
+darkavatar: assets/images/miami/black.png
+description: "Miami University – USS 2022: Emil Sayahi, Dr Suman Bhunia, Dr Mohammed Salman"
+url: "https://uss2022sayahi.github.io/"
+author: Emil Sayahi
+logo: assets/images/miami/logo.png
+google_analytics:
+footer-links:
+  email: sayahie@miamioh.edu
+  facebook:
+  github: uss2022sayahi
+  instagram:
+  linkedin: emil-sayahi
+  rss: feed.xml
+  twitter:
+navigation:
+  - name: Home
+    link: index.html
+  - name: About
+    link: about/

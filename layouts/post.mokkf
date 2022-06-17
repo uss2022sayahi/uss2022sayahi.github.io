@@ -1,0 +1,10 @@
+---
+layout: default
+markdown: false
+---
+
+<div class="post">
+  <h1>{{ page.data.title }}</h1>
+  <span class="fs-4 text-muted">{{ page.date.rfc_2822 }}</span>
+  <div class="mt-4">{{ page.content }}</div>
+</div>
